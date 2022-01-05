@@ -5,15 +5,13 @@ import java.util.Scanner;
 public class stringoperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int sum = 0;
-        for (int i = 0; i < s.length(); i++) {
-            System.out.println(s.charAt(i)-48);
-            sum=sum + (s.charAt(i)-48);
-        }
-        System.out.println("sum = "+sum);
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+        if (s1.compareTo(s2) == 0)
+            System.out.println("strings are equal");
+        else
+            System.out.println("strings are not equal");
     }
 }
-
 
 
