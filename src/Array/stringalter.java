@@ -11,7 +11,8 @@ public class stringalter {
         {
             if(s.charAt(i)=='@')
                 break;
-            else username = username + s.charAt(i);
+            else username = username + s;
+
         }
         System.out.println(username);
     }
